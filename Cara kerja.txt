@@ -1,0 +1,7 @@
+Di sini, kami menggunakan fungsi doPost() untuk memproses pesan yang dikirim ke bot. 
+Jika pesan yang diterima adalah '/start', kami mengirimkan pesan "Hello! How can I help you today?" ke pengguna. 
+Jika pesan yang diterima bukan '/start', kami mengirimkan pesan "Sorry, I don't understand what you mean. 
+Can you rephrase your question or request?" ke pengguna.
+
+Untuk menggunakan contoh ini, Anda harus mengganti <YOUR_BOT_TOKEN> dengan token bot Anda yang sebenarnya. 
+Anda juga harus mengirimkan endpoint URL ini ke server Telegram Anda sebagai webhook untuk memulai menerima pesan dari pengguna.
